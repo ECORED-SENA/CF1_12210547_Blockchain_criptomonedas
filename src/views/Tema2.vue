@@ -1,17 +1,23 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 2
-      h1 Titulo de primer nivel
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
+    .titulo-principal
+      .h3 Producción Audiovisual
+    
+    #t_2_1.titulo-segundo
+      .h4 2.1 Infografía Animada
 
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno.vue'
 export default {
   name: 'Tema2',
+  components: {
+    BannerInterno,
+  },
   data: () => ({
     // variables de vue
   }),
