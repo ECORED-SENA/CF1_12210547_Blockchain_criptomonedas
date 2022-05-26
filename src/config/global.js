@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Fundamentos, aplicación y análisis del <i>Blockchain</i> en el ámbito financiero',
+      'Fundamentos, aplicación y análisis del Blockchain en el ámbito financiero',
     descripcionCurso:
       'La tecnología <i>Blockchain</i> surge como respuesta a la necesidad de digitalizar las transacciones comerciales. Ya se vienen realizando transacciones soportadas en <i>Blockchain</i>, gracias a que esta responde a criterios de operatividad que garantizan la trazabilidad, la seguridad, la centralización y el anonimato; sumado a que, con la criptografía apropiada y la redistribución de datos, la información queda consignada en los diferentes bloques.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
