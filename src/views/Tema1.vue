@@ -2,24 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
       h1 <i>Blockchain</i>
-    p.my-5(data-aos="fade-up-right") La tecnología Blockchain es la digitalización de las transacciones comerciales soportada en un sistema entrelazado que, desde un criterio de consolidado o bloque, se inicia con un hash o valor único que lo identifica criptográficamente; por tanto, los bloques siguientes estarán identificados de la misma manera, pero vinculados, porque el bloque subsiguiente tiene una referencia al bloque anterior, lo cual garantiza que están entrelazados. Así, las operaciones comerciales que se realizan se comunican a todos los nodos de la red. De esta manera, se constituye la cadena de bloque o Blockchain, lo cual genera un ledger o libro contable público compartido también en todos los nodos de la red.
+    p.my-5(data-aos="fade-up-right") La tecnología <i>Blockchain</i> es la digitalización de las transacciones comerciales soportada en un sistema entrelazado que, desde un criterio de consolidado o bloque, se inicia con un hash o valor único que lo identifica criptográficamente; por tanto, los bloques siguientes estarán identificados de la misma manera, pero vinculados, porque el bloque subsiguiente tiene una referencia al bloque anterior, lo cual garantiza que están entrelazados. Así, las operaciones comerciales que se realizan se comunican a todos los nodos de la red. De esta manera, se constituye la cadena de bloque o <i>Blockchain</i>, lo cual genera un ledger o libro contable público compartido también en todos los nodos de la red.
     .row.justify-content-around.fondo1.py-5(data-aos="fade-down-right")
-      .col-xxl-5
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-8.col-9
         img(src='@/assets/curso/tema1/figura1.svg')
-      .col-xxl-4
-        p Para acceder a cada bloque, es necesario contar con los mensajes o claves correspondientes, a los cuales solo accederán los autorizados, haciendo uso del anonimizado; estas operaciones son confirmadas cuando hacen parte de un bloque añadido, el cual debió ser minado o, en términos técnicos, calcular su hash, lo cual genera un nivel de dificultad por el alto consumo de recursos informáticos que debe reajustarse periódicamente, adaptándose a la capacidad de la red, siendo complejo su cálculo al momento en que la potencia de los computadores conectados aumenta, lo que impide alterar la información contenida en uno o varios bloques, porque necesariamente debe modificarse su criptografía y esto rompe el ciclo o encadenamiento de los bloques, lo que en consecuencia genera una ruptura de la cadena y repararla es prácticamente imposible debido a su cualidad de inalterabilidad de la información y la trazabilidad que vincula.
-    p.my-5.text-center(data-aos="fade-up-right") A continuación, lo invitamos a ver el siguiente video, con el fin de ampliar el concepto de Blockchain:
+      .col-xxl-4.col-xl-4.col-lg-10.col-md-10.col-sm-10.col-11
+        p.mt-3 Para acceder a cada bloque, es necesario contar con los mensajes o claves correspondientes, a los cuales solo accederán los autorizados, haciendo uso del anonimizado; estas operaciones son confirmadas cuando hacen parte de un bloque añadido, el cual debió ser minado o, en términos técnicos, calcular su hash, lo cual genera un nivel de dificultad por el alto consumo de recursos informáticos que debe reajustarse periódicamente, adaptándose a la capacidad de la red, siendo complejo su cálculo al momento en que la potencia de los computadores conectados aumenta, lo que impide alterar la información contenida en uno o varios bloques, porque necesariamente debe modificarse su criptografía y esto rompe el ciclo o encadenamiento de los bloques, lo que en consecuencia genera una ruptura de la cadena y repararla es prácticamente imposible debido a su cualidad de inalterabilidad de la información y la trazabilidad que vincula.
+    p.my-5.text-center(data-aos="fade-up-right") A continuación, lo invitamos a ver el siguiente video, con el fin de ampliar el concepto de <i>Blockchain</i>:
     .row.justify-content-center(data-aos="fade-down-right")
       .col-xxl-6.col-lg-9.col-md-11.col-sm-12.col-12
         .tarjeta.color-primario.p-3.mb-5
@@ -29,12 +22,12 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white.text-bold Conoce qué es Blockchain en menos de 3 minutos.
+                  h4.text-white.text-bold Conoce qué es <i>Blockchain</i> en menos de 3 minutos.
                 .col-sm-auto
                   a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=70asKwy15Ds' target="_blank")
                     span.text-dark Ver video
                     i.fas.fa-play
-    p.my-5(data-aos="fade-up-right") Con lo ya visto, sería un desacierto profundizar en Blockchain sin conocer su origen; por esa razón, inicie conociendo parte de la historia de su nacimiento:
+    p.my-5(data-aos="fade-up-right") Con lo ya visto, sería un desacierto profundizar en <i>Blockchain</i> sin conocer su origen; por esa razón, inicie conociendo parte de la historia de su nacimiento:
     .row.justify-content-center.align-items-start
       .col-xxl-10.col-lg-10(data-aos="fade-down-right")
         LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
@@ -85,7 +78,7 @@
             p
               b Anonimato
             p Se puede gozar de total anonimato, dependiendo de la necesidad puntual de la aplicación.     
-    p.text-center.mb-5(data-aos="fade-up-left") Para profundizar en las características de la tecnología Blockchain, lo invitamos a ver el siguiente video:
+    p.text-center.mb-5(data-aos="fade-up-left") Para profundizar en las características de la tecnología <i>Blockchain</i>, lo invitamos a ver el siguiente video:
 
     .row.justify-content-center(data-aos="fade-up-left")
       .col-xxl-6.col-lg-9.col-md-11.col-sm-12.col-12
@@ -96,7 +89,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white.text-bold.mb-0 ¿Qué es y cómo funciona <i>Blockchain</i>?
+                  h4.text-white.text-bold.mb-0 ¿Qué es y cómo funciona <i></i>?
                   p.text-white Conoce más sobre el <i>Blockchain</i> y su estructura.
                 .col-sm-auto
                   a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=C5NZnD12yjg' target="_blank")
@@ -160,7 +153,7 @@
               span.text-bold B
               span , el bloque se transmite a todas las partes de la red, los miembros de la red aprueban que la transacción es válida, el bloque se añade a la cadena para proporcionar un registro indeleble y transparente de las transacciones, y al final el dinero llega a 
               span.text-bold B.
-    .row
+    .row.justify-content-center
       .col-xxl-12.fondo4.ampliarfondo
         p.m-5(data-aos="fade-up-right") Se puede evidenciar cómo se modifica el esquema tradicional para dar paso a la estructura por cadena de bloques, que funciona a través de claves personalizadas, las cuales permiten realizar una transacción, siendo al final verificada y aprobada verificando la firma del propietario siguiente y aportando la clave inicial, sin la cual no será posible continuar en la cadena, siendo este paso recurrente para todos los participantes hasta finalizar y cerrar.
 
@@ -217,7 +210,7 @@
       .col-xxl-6.col-lg-9.col-md-11.col-sm-12.col-12
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-4.col-sm-3.col-lg-2.ps-1
+            .col-3.col-sm-2.col-lg-2.ps-1
               img(src="@/assets/curso/tema1/iconollamadoaccion.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -230,7 +223,7 @@
                     i.fas.fa-play
 
     h4.my-5(data-aos="fade-left") Tipos de <i>Blockchain</i>
-    p.mb-5(data-aos="fade-left") De lo que se ha desarrollado hasta este momento sobre el Blockchain, hay cuatro tipos principales de redes, cada una adecuada para diferentes propósitos.
+    p.mb-5(data-aos="fade-left") De lo que se ha desarrollado hasta este momento sobre el <i>Blockchain</i>, hay cuatro tipos principales de redes, cada una adecuada para diferentes propósitos.
     p.mb-5(data-aos="fade-left") A continuación, se encuentran los diferentes tipos y las características que los diferencian:
 
     TabsB.color-acento-contenido.mb-5.fondo6(data-aos="fade-right")
@@ -257,7 +250,7 @@
         .row.align-items-center.justify-content-center
           .col-xxl-8.col-xl-8.col-lg-8.col-md-8.mb-4.mb-md-0
             h4.ms-5 <i>Blockchain</i> híbrido
-            p.ms-5 Son operados por una sola empresa, que le otorga acceso a cualquier usuario que satisfaga los criterios preestablecidos. Aunque no esté verdaderamente descentralizado, este tipo de Blockchain autorizado es atractivo para los casos de uso business-to-business (negocios dirigidos a empresas) y aplicaciones de gobierno. 
+            p.ms-5 Son operados por una sola empresa, que le otorga acceso a cualquier usuario que satisfaga los criterios preestablecidos. Aunque no esté verdaderamente descentralizado, este tipo de <i>Blockchain</i> autorizado es atractivo para los casos de uso business-to-business (negocios dirigidos a empresas) y aplicaciones de gobierno. 
             p.ms-5 No obstante, es importante tener en cuenta que los híbridos son los que combinan redes privadas y públicas. A su vez, pueden tener operaciones en modo privado que eventualmente se registran en la red pública.
         
           .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-8.col-10
@@ -414,7 +407,7 @@
           td Es posible una variedad de mecanismos de consenso (típicamente más fáciles y de menos costos que PoW).
         tr
           td.bordetabla  Activo
-          td.bordetabla  Típicamente criptomonedas, pero admiten la presentación de tokens que pueden equivaler a cualquier activo.
+          td.bordetabla  Típicamente criptomonedas, pero admiten la presentación de <i>tokens</i> que pueden equivaler a cualquier activo.
           td Cualquier activo
         tr
           td.bordetabla  Propiedad legal
@@ -443,7 +436,7 @@
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
       .tabla-b__header
         span.text-bold.mb-0.ms-5.text-dark Tecnología <i style="color: #12263F;">Blockchain</i> en Licitaciones Públicas 
-        span.text-dark <i style="color: #12263F;">(Articulado con el FEM)</i>
+        span.text-dark.ms-4 <i style="color: #12263F;">(Articulado con el FEM)</i>
         p.mb-0.ms-5.text-dark Rol del C4IR.co - Articulador
       table
         caption Nota. Basada en Espinosa (2020).
@@ -553,12 +546,10 @@
 
 <script>
 import BannerInterno from '../components/BannerInterno.vue'
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
   components: {
     BannerInterno,
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
     // variables de vue
@@ -596,7 +587,7 @@ export default {
       {
         titulo: '2020',
         texto:
-          'Se publica una primera versión de los lineamientos de <i>Blockchain</i> para el Estado colombiano, denominada “Guía para el uso y la implementación de tecnología de registros distribuidos (<i>DLT/Blockchain</i>) en el sector público”, documento en el que se desarrollaron bases teóricas y se evidenciaron algunos ejemplos implementados en el sector público en países como Emiratos Árabes Unidos, Estonia, China, Unión Europea, Canadá y Estados Unidos, para su adopción e implementación en proyectos con tecnología <i>Blockchain</i>.',
+          'Se publica una primera versión de los lineamientos de <i>Blockchain</i> para el Estado colombiano, denominada “Guía para el uso y la implementación de tecnología de registros distribuidos (DLT/<i>Blockchain</i>) en el sector público”, documento en el que se desarrollaron bases teóricas y se evidenciaron algunos ejemplos implementados en el sector público en países como Emiratos Árabes Unidos, Estonia, China, Unión Europea, Canadá y Estados Unidos, para su adopción e implementación en proyectos con tecnología <i>Blockchain</i>.',
         icono: require('@/assets/curso/tema1/2020.svg'),
       },
       {

@@ -26,25 +26,26 @@
           .col-xxl-10.col-lg-10.col-md-10.col-10
             p.my-5 De acuerdo con el Committee on Payments and Market Infrastructures, las criptomonedas no son iguales, estas se asemejan porque son digitales y no requieren intermediación para su transacción, pero existen muchos tipos de criptomonedas, tal como se pueden clasificar de acuerdo con la flor del dinero. Existen diferencias marcadas de una criptomoneda a otra, por ejemplo: el tipo de emisor, mecanismo de transferencia, accesibilidad, forma, etc.
     .titulo-sexto.mb-5.color-acento-contenido(data-aos="fade-left")
-      p.text-small Figura 3
+      p.text-small Figura 3 
         span Flor del dinero: Taxonomía
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-10.col-sm-10.col-11
         img(src='@/assets/curso/tema3/figura1.svg')
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-10.col-sm-10.col-11
-        h3.mb-0.text-center.py-4.fondo17.text-white La tecnología Blockchain se basa en tres elementos esenciales, que son: 
+        h3.mb-0.text-center.py-4.fondo17.text-white La tecnología <i>Blockchain</i> se basa en tres elementos esenciales, que son: 
 
-    .row.my-5.fondo18
-      .col-xxl-12.alinear(data-aos="fade-right")
+    .row.my-5.fondo18.justify-content-center
+      .col-xxl-12.col-lg-10.col-md-10.alinear(data-aos="fade-right")
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
-        .titulo-segundo.ms-4.subrayadotec
-          h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables y contratos  inteligentes 
+        .titulo-segundo.ms-4.subrayadotec.adecuartexto
+          h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables 
+          h4.mb-0 y contratos inteligentes 
       .col-xxl-7(data-aos="fade-left")
         p.mt-5.ms-5 Estos elementos se basan en el principio de transparencia, debido a que todos los participantes de la red tienen acceso al libro de transacciones, nadie puede alterarlas o cambiarlas, y toda esta información se almacena en la cadena de bloques y se ejecuta automáticamente, mejorando la velocidad en las transacciones (IBM, s. f.).
         p.ms-5 Las criptomonedas están basadas en la tecnología <i>Blockchain</i>; actualmente, existen varios tipos de criptomonedas, sin embargo, las más conocidas son el <i>Bitcoin</i> y el <i>Ethereum</i>. Estas se administran únicamente a través de carteras digitales que pueden ser una aplicación móvil o de escritorio.
         p.ms-5 La gran diferencia entre <i>Bitcoin</i> y <i>Ethereum</i> es la forma en que se realiza el minado. En <i>Ethereum</i>, un minero puede cobrar por confirmar la transacción, además de no existir un límite para la emisión de <i>Ethereum</i>, como sí existe en <i>Bitcoin</i> (21 millones) (Plus500, s. f.-a).
-      .col-xxl-5.pe-5(data-aos="fade-right")
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-8.col-9.pe-5(data-aos="fade-right")
         img.me-5(src='@/assets/curso/tema3/cubos.svg')
 
       .titulo-sexto.my-5.color-acento-contenido(data-aos="fade-left")
@@ -98,15 +99,15 @@
       .col-xxl-12.alinear(data-aos="fade-right")
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
         .titulo-segundo.ms-4.subrayadotoken
-          h2.mb-0 Token
+          h2.mb-0 <i>Token</i>
     .row.justify-content-center
       .col-xxl-7(data-aos="fade-right")
         p Los <i>tokens</i> son la parte esencial de las transacciones digitales, están fundamentados en <i>Blockchain</i> y criptografía, y su función depende del valor que la entidad emisora establezca; sus usos son variados, desde poder ingresar a un juego en línea, hasta el pago por contratar algún trabajo específico.
         p Unos de los <i>tokens</i> más representativos son los NFT o <i>tokens</i> no fungibles, los cuales son productos digitales únicos, que no se consumen una vez se usan y no es posible sustituirlos por otros <i>tokens</i>. Estos también utilizan la tecnología <i>Blockchain</i>, pero la diferencia entre los <i>tokens</i> y las criptomonedas radica en su sustitución; una criptomoneda puede ser sustituida por otra equivalente, los <i>tokens</i> no pueden ser sustituidos, por lo que reciben la denominación de “no fungibles”. 
         p La principal diferencia entre un <i>token</i> y una criptomoneda es que las criptomonedas utilizan su propia cadena de bloques, mientras que los <i>tokens</i> utilizan la cadena de bloques de otra criptomoneda para operar.
-      .col-xxl-5(data-aos="fade-right")
+      .col-xxl-5.col-xl-5.col-lg-6.col-md-7.col-sm-8.col-9(data-aos="fade-right")
         img(src='@/assets/curso/tema3/figura2.svg')
-    .row.my-5(data-aos="fade-left")
+    .row.mt-5(data-aos="fade-left")
       .col-xxl-12.alinear
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
         .titulo-segundo.ms-4.subrayadominado
@@ -116,7 +117,7 @@
     .row.justify-content-center.align-items-center.ampliarfondo.fondo19
       .col-xxl-7.col-xl-7.col-lg-7.col-md-10.col-sm-10.col-11(data-aos="fade-right")
         p.text-white.ms-5.mt-5 Un bloque de transacciones o cadena de bloques se va creando cada vez que los mineros descifran el algoritmo matemático y envían su respuesta; esa información se almacena en un bloque para el receptor y la información que este receptor genera también quedará en el récord de la transacción, y así sucesivamente, hasta dar por finalizada la operación, la cual quedará con toda la información generada en cada una de las transacciones realizadas. 
-        p.text-white.ms-5.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería Bitcoin rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
+        p.text-white.ms-5.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-8.col-9(data-aos="fade-left")
         img.my-5(src='@/assets/curso/tema3/figura3.svg')
 
@@ -127,11 +128,11 @@
             p Es un código alfanumérico que se obtiene al aplicar una función matemática (función hash) a un conjunto de datos concatenados. Este hash contiene toda la información relevante que se quiere encriptar; por lo general, contiene el número de bloque, las transacciones y la firma digital de la persona que valida la transacción.
             p Sin embargo, aunque esto permite en cada bloque tener un hash único y diferente, se deben introducir otras dos piezas fundamentales para aumentar la seguridad de la cadena: 
         
-          .col-xxl-5.col-xl-5.col-lg-5.col-5.col-md-5.mx-4.mb-5.fondo20
+          .col-xxl-5.col-xl-5.col-lg-5.col-10.col-md-8.mx-4.mb-5.fondo20
             img(src='@/assets/curso/tema3/figura4.svg')
             p.text-center.text-bold.mt-4 Hash previo
             p.text-center En la concatenación, al integrar el hash de cada bloque, se debe introducir el hash del bloque previo; de esta forma, se va generando una pila o un libro con toda la información; de este modo, si alguien llegase a alterar la información de un bloque, todos los hashes posteriores, incluyendo el <i>hash</i> modificado, pasarán a ser inválidos (se propaga el error a todos los bloques siguientes de la cadena).
-          .col-xxl-5.col-xl-5.col-lg-5.col-5.col-md-5.mx-4.mb-5.fondo20
+          .col-xxl-5.col-xl-5.col-lg-5.col-10.col-md-8.mx-4.mb-5.fondo20
             img(src='@/assets/curso/tema3/figura5.svg')
             p.text-center.text-bold.mt-4 Nonce
             p.text-center Código alfanumérico aleatorio. Un hash no solo identifica un bloque, sino que además debe introducir seguridad; por lo tanto, si solo se concatena el bloque, la transacción, la firma y el <i>hash</i> del nuevo bloque, la desencriptación por medio de la función matemática siempre sería la misma; de esta forma, se debe introducir un código aleatorio, que sería el Nonce.
@@ -170,7 +171,7 @@
                       span.text-small.text-white (%)
                 tbody
                   tr
-                    td Bitcoin is Launched
+                    td <i>Bitcoin</i> is Launched
                     td 03/01/2009
                     td 0
                     td 50
@@ -211,7 +212,7 @@
                     td 1,260,000
                     td 0.78125
                     td 99.21875
-
+    separador
 </template>
 <script>
 import BannerInterno from '../components/BannerInterno.vue'

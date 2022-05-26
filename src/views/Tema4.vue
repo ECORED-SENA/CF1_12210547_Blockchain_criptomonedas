@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 4
-      h1 Trading
-    p.my-5(data-aos="fade-left") El trading en criptoactivos es la acción de tomar posición financiera de venta o de compra al precio de una criptomoneda frente al dólar (Criptomoneda-dólar) o frente a otra criptomoneda (Criptomoneda-Criptomoneda) (Plus500, s. f.-c).
+      h1 <i>Trading</i>
+    p.my-5(data-aos="fade-left") El <i>trading</i> en criptoactivos es la acción de tomar posición financiera de venta o de compra al precio de una criptomoneda frente al dólar (Criptomoneda-dólar) o frente a otra criptomoneda (Criptomoneda-Criptomoneda) (Plus500, s. f.-c).
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-9.col-11
         p Las criptomonedas se pueden negociar por el método de intercambio digital (comprando-vendiendo en un mercado de intercambio de criptomonedas) o mediante derivados financieros (Contratos por Diferencia CFD), en los que existe menor desembolso de capital y permiten especular en el precio del activo digital.
@@ -27,7 +27,7 @@
       p.text-white.text-center.mb-0.p-3.fondo23.px-5 Estos productos se mueven a través del apalancamiento, lo que supone inversión en grupo para tomar posición en el mercado solo con disponer de una mínima parte de la oferta total. Con este mecanismo, se pueden maximizar las ganancias, pero también las pérdidas.
     .row.justify-content-center.mb-5.fondo25.ampliarfondo.py-5
       .col-xxl-7.col-xl-7.col-lg-7.col-md-9.col-sm-10.col-11(data-aos="fade-left")
-        p.ms-4 Otra forma de <i>trading</i> son los spreads, que hacen referencia a la diferencia entre el precio de compra y venta de las criptodivisas; al igual que en los mercados financieros tradicionales, se abre con una posición en el mercado: posición larga, cuando se opera con el precio de compra, y posición corta, cuando se opera con el precio de venta.
+        p.ms-4 Otra forma de <i>trading</i> son los <i>spreads</i>, que hacen referencia a la diferencia entre el precio de compra y venta de las criptodivisas; al igual que en los mercados financieros tradicionales, se abre con una posición en el mercado: posición larga, cuando se opera con el precio de compra, y posición corta, cuando se opera con el precio de venta.
         p.ms-4 El mercado de las criptomonedas está sujeto a las acciones de oferta y demanda; cada criptomoneda tiene su propio valor y aceptación en el mercado, esto se debe principalmente a sus mejoras en diversas áreas, por ejemplo: avances o innovación en su fase de desarrollo, acuerdos en la aceptación de estas como medios de pago en diferentes empresas, amplio rango de acción en intercambio con otras monedas, entre otras. Todo ello permite que el interés por unas criptomonedas o <i>tokens</i> sea más interesante que por otras, por lo tanto, aumentaría la demanda y a su vez el precio.
         .row.justify-content-center.my-5(data-aos="fade-left")
           .col-xxl-12.col-xl-12.ms-5

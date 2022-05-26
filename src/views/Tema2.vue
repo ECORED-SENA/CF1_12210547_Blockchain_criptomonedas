@@ -19,21 +19,21 @@
           .row(numero="1" titulo="Su nacimiento")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen1.jpg')
+                img.ajustarimagen.mb-2(src='@/assets/curso/tema2/imagen1.jpg')
             .col-md-9.mb-4.mb-md-0
               p Nace desde hace más de 4000 años y es una palabra de origen griego, <i>“krypto”</i>, que significa oculto, y <i>“graphos”</i>, que  traducido significa escritura oculta, con una amplia misión de romper las codificaciones realizadas por terceros con el fin develar sus mensajes.
 
           .row(numero="2" titulo="Primeras apariciones")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen2.jpg')
+                img.ajustarimagen.mb-2(src='@/assets/curso/tema2/imagen2.jpg')
             .col-md-9.mb-4.mb-md-0
               p Apareció inicialmente a través de jeroglíficos en Egipto. En la biblia, se utilizó un sistema de sustitución de letras llamado “atbash”. Los espartanos enrollaban un pergamino sobre una escítala que servía para ordenar las letras y decodificar el mensaje, con la particularidad de que el lector debía tener una escítala del mismo diámetro o tamaño para poder descifrar el mensaje, apareciendo la criptografía simétrica.
 
           .row(numero="3" titulo="Se difunde su uso")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen3.jpg')
+                img.ajustarimagen.mb-3(src='@/assets/curso/tema2/imagen3.jpg')
             .col-md-9.mb-4.mb-md-0
               p En Roma, Julio César utilizó el cifrado de César, que consistía en el desplazamiento de la letra de cada palabra por una que se encontraba en posición fija en el abecedario, la cual debía ser reemplazada para comprender el mensaje. 
               p El mundo árabe conoció la criptografía en la Edad Media, llamada análisis de frecuencia, donde se analizaba el mensaje a través de la correlación, buscando patrones repetitivos, a través de lo cual se dió robustez a esta técnica.
@@ -41,7 +41,7 @@
           .row(numero="4" titulo="El primer tratado y su potencial para uso bélico")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen4.jpg')
+                img.ajustarimagen.mb-3(src='@/assets/curso/tema2/imagen4.jpg')
             .col-md-9.mb-4.mb-md-0
               p En el Renacimiento, aparece Polygraphia, gracias a Johannes Trithemius, siendo publicado este tratado que incluye esteganografía y codificación. 
               p En la Segunda Guerra Mundial, un objetivo táctico era descifrar los mensajes enemigos, y es para esta época que aparece Antoine Rossignol, convirtiéndose en el criptógrafo más importante de Francia, y su generación de hijo y nieto, quienes trabajaron en el primer centro de criptografía de Francia, llamado Cabinet Noir. 
@@ -49,19 +49,19 @@
           .row(numero="5" titulo="Su modernización")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen5.jpg')
+                img.ajustarimagen.mb-3(src='@/assets/curso/tema2/imagen5.jpg')
             .col-md-9.mb-4.mb-md-0
               p La explosión de la computación y su desarrollo, tras la Segunda Guerra Mundial, convirtió a los computadores en un instrumento clave dentro del cifrado y descifrado de mensajes; por tanto, por seguridad, la mayoría de países consideraron la criptografía como algo secreto y vinculado a tareas de inteligencia y espionaje. 
 
           .row(numero="6" titulo="Salvaguardar la información")
             .col-md-3
               figure
-                img.ajustarimagen(src='@/assets/curso/tema2/imagen6.jpg')
+                img.ajustarimagen.mb-3(src='@/assets/curso/tema2/imagen6.jpg')
             .col-md-9.mb-4.mb-md-0
               p Desde mediados de los años 50 hasta mediados de los 70, la NSA acaparó y bloqueó cualquier tipo de publicación o estudio sobre criptografía en Estados Unidos; y para acercarse a los acontecimientos actuales, llega la tecnología y el cúmulo de información que genera cada ser humano desde que nace, por lo que se incurre en una gran gama de códigos o criptogramas para organizar la información, cifrarla o identificarla y almacenar la información para que terceros no la usen de manera malintencionada o, simplemente, se garantice la salvaguarda de la información. (Velasco, 2014)
 
-      .col-xxl-2.col-md-2.col-sm-4.col-4
-        img(src='@/assets/curso/tema2/figura2.svg')
+      .col-xxl-2.col-md-2.col-sm-3.col-3
+        img.mt-4(src='@/assets/curso/tema2/figura2.svg')
 
     .row.justify-content-center(data-aos="fade-down-right")
       .col-xxl-10
@@ -93,10 +93,10 @@
               p.text-small Figura 1
                 span Ciclo del mensaje secreto
             img(src='@/assets/curso/tema2/figura3.svg')
-    .titulo-segundo.mb-5.color-acento-contenido(data-aos="flip-up")
+    .titulo-segundo.mt-5.color-acento-contenido(data-aos="flip-up")
       h4 Tipos de criptografía y su uso
 
-    p.mb-5(data-aos="fade-down-right") Los tipos de criptografía se clasifican en 
+    p(data-aos="fade-down-right") Los tipos de criptografía se clasifican en 
       span.text-bold clásica
       span , dividida en transposición y sustitución, y 
       span.text-bold moderna
@@ -104,7 +104,7 @@
     .row.fondo15.py-5
       .col-xxl-12  
         .titulo-sexto.mb-5.color-acento-contenido(data-aos="fade-left")
-          p.text-small Figura 2
+          p.text-small Figura 2 
             span Clasificación de la criptografía
         img(data-aos="fade-down-right")(src='@/assets/curso/tema2/figura4.svg')
     p.my-5(data-aos="fade-down-right") Para entender mejor la criptografía, es importante conocer algunos términos comunes:
