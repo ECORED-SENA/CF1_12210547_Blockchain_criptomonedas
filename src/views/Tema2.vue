@@ -73,7 +73,7 @@
           img(src='@/assets/curso/tema2/icono1.svg')
           .tarjeta.color-acento-botones
             .p-4
-              h2.text-center.text-dark Criptografía
+              h4.text-center.textonegro Criptografía
               p.text-center.text-dark Se encarga de estudiar las técnicas del cifrado de la información.
 
       .col-xxl-4.col-xl-4.col-lg-4.col-sm-6.col-10.col-md-4.col-lg.mb-5.mb-lg-0
@@ -81,17 +81,17 @@
           img(src='@/assets/curso/tema2/icono2.svg')
           .tarjeta.color-acento-botones
             .p-4
-              h2.text-center.text-dark Criptoanálisis
+              h4.text-center.textonegro| Criptoanálisis
               p.text-center.text-dark Se dedica a todo lo contrario, es decir, a descifrar o decodificar esa información.
     p.my-5(data-aos="fade-down-right") A continuación, se muestra lo que sucede cuando se envía un mensaje, este se cifra, y continúa su viaje como un criptograma, o sea que hace referencia al mensaje cifrado, es decir, que no es entendible por quien no conoce la clave para descifrarlo. 
     p.mb-5(data-aos="fade-down-right") En ese trayecto, el mensaje cifrado, o criptograma, puede sufrir dos eventos, el uno, que llegue al receptor y lo descifre, o que el mensaje sea interceptado y los intrusos lo desencripten y puedan leer el mensaje.
     .row.justify-content-center
       .col-xxl-8.fondo14
         .row.justify-content-center(data-aos="fade-down-right")
-          .col-xxl-6.col-md-8.mb-5
+          .col-xxl-10.col-md-8.mb-5.pt-5
             .titulo-sexto.mb-5.color-acento-contenido(data-aos="fade-left")
-              p.text-small Figura 1
-                span Ciclo del mensaje secreto
+              span.text-small.mb-0.text-bold Figura 1 
+              span Ciclo del mensaje secreto
             img(src='@/assets/curso/tema2/figura3.svg')
     .titulo-segundo.mt-5.color-acento-contenido(data-aos="flip-up")
       h4 Tipos de criptografía y su uso
@@ -104,68 +104,69 @@
     .row.fondo15.py-5
       .col-xxl-12  
         .titulo-sexto.mb-5.color-acento-contenido(data-aos="fade-left")
-          p.text-small Figura 2 
-            span Clasificación de la criptografía
+          span.text-small.mb-0.text-bold Figura 2 
+          span Clasificación de la criptografía
         img(data-aos="fade-down-right")(src='@/assets/curso/tema2/figura4.svg')
-    p.my-5(data-aos="fade-down-right") Para entender mejor la criptografía, es importante conocer algunos términos comunes:
-
-    .row.mb-5(data-aos="fade-down-left")
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0.mb-4
-        .tarjeta-numerada.color-secundario.p-5.altoCuadro2
-          .tarjeta-numerada__numero
-            .h2 1
-          p
-            b Criptografía 
-          p Arte de cifrar y descifrar información, usando técnicas que permitan intercambiar mensajes de forma segura, pudiendo solo ser leídos por los destinatarios elegidos, sin importar si el mensaje es a través de un medio inseguro o público.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
-          .tarjeta-numerada__numero
-            .h2 2
-          p 
-            b Cifrado
-          p Es el proceso mediante el cual la información es transformada a través de un algoritmo que cifra la misma, por lo cual se necesitaría de una clave que permita descifrar el algoritmo.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 3
-            p
-              b Algoritmo o criptografía simétrica
-            p Permite la encriptación y desencriptación de información mediante una llave o clave, siendo seguro y de fácil transmisión.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 4
-            p
-              b Algoritmo o criptografía asimétrica
-            p Permite la encriptación y desencriptación de información a través de diferentes llaves o claves. La información se encriptará con una clave pública y se desencriptará con una privada. Para hacerlas seguras, pueden tener muchos bits, lo que puede hacer los procesos lentos.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 5
-            p
-              b Criptosistema
-            p Es el procedimiento mediante un algoritmo con clave, transforma un mensaje en información comprensible, a menos que ya los receptores tengan la clave para desencriptar.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 6
-            p
-              b Esteganografía
-            p Procedimiento que permite esconder información para que pase inadvertida; puede estar a simple vista y aún así no poder percatarse de que existe un mensaje.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 7
-            p
-              b Criptoanálisis
-            p Es la oposición a la encriptación, es el estudio de métodos para poder descifrar o encontrar el sentido de información antes cifrada.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-xl.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
-            .tarjeta-numerada__numero
-              .h2 8
-            p
-              b Métodos criptográficos
-            p Son los métodos para la encriptación de información.
+    .row.fondo35.ampliarfondo
+      .col-xxl-12.ps-5
+        p.my-5(data-aos="fade-down-right") Para entender mejor la criptografía, es importante conocer algunos términos comunes:
+        .row.mb-5(data-aos="fade-down-left")
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0.mb-4
+            .tarjeta-numerada.color-secundario.p-5.altoCuadro2
+              .tarjeta-numerada__numero
+                .h2 1
+              p
+                b Criptografía 
+              p Arte de cifrar y descifrar información, usando técnicas que permitan intercambiar mensajes de forma segura, pudiendo solo ser leídos por los destinatarios elegidos, sin importar si el mensaje es a través de un medio inseguro o público.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
+              .tarjeta-numerada__numero
+                .h2 2
+              p 
+                b Cifrado
+              p Es el proceso mediante el cual la información es transformada a través de un algoritmo que cifra la misma, por lo cual se necesitaría de una clave que permita descifrar el algoritmo.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 3
+                p
+                  b Algoritmo o criptografía simétrica
+                p Permite la encriptación y desencriptación de información mediante una llave o clave, siendo seguro y de fácil transmisión.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 4
+                p
+                  b Algoritmo o criptografía asimétrica
+                p Permite la encriptación y desencriptación de información a través de diferentes llaves o claves. La información se encriptará con una clave pública y se desencriptará con una privada. Para hacerlas seguras, pueden tener muchos bits, lo que puede hacer los procesos lentos.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 5
+                p
+                  b Criptosistema
+                p Es el procedimiento mediante un algoritmo con clave, transforma un mensaje en información comprensible, a menos que ya los receptores tengan la clave para desencriptar.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 6
+                p
+                  b Esteganografía
+                p Procedimiento que permite esconder información para que pase inadvertida; puede estar a simple vista y aún así no poder percatarse de que existe un mensaje.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 7
+                p
+                  b Criptoanálisis
+                p Es la oposición a la encriptación, es el estudio de métodos para poder descifrar o encontrar el sentido de información antes cifrada.
+          .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-xl-0
+            .tarjeta-numerada.color-secundario.p-5.mb-4.altoCuadro2
+                .tarjeta-numerada__numero
+                  .h2 8
+                p
+                  b Métodos criptográficos
+                p Son los métodos para la encriptación de información.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down-right")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-10.col-12
@@ -194,8 +195,6 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
-    separador
-
 
 </template>
 

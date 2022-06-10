@@ -25,17 +25,16 @@
         p Estas operaciones se pueden realizar a través de plataformas especializadas, y como el sistema es completamente descentralizado, no existe un banco central que regule su circulación, por lo tanto, en muchos países no son consideradas como una moneda legal.
         p Los contratos por diferencias CFD permiten especular sobre los precios de las criptomonedas, sin tener que ser el dueño de las criptodivisas; se pueden hacer operaciones de compra o negociar en largo (sube el precio) o vender y negociar en corto (baja el precio).
       p.text-white.text-center.mb-0.p-3.fondo23.px-5 Estos productos se mueven a través del apalancamiento, lo que supone inversión en grupo para tomar posición en el mercado solo con disponer de una mínima parte de la oferta total. Con este mecanismo, se pueden maximizar las ganancias, pero también las pérdidas.
-    .row.justify-content-center.mb-5.fondo25.ampliarfondo.py-5
-      .col-xxl-7.col-xl-7.col-lg-7.col-md-9.col-sm-10.col-11(data-aos="fade-left")
-        p.ms-4 Otra forma de <i>trading</i> son los <i>spreads</i>, que hacen referencia a la diferencia entre el precio de compra y venta de las criptodivisas; al igual que en los mercados financieros tradicionales, se abre con una posición en el mercado: posición larga, cuando se opera con el precio de compra, y posición corta, cuando se opera con el precio de venta.
-        p.ms-4 El mercado de las criptomonedas está sujeto a las acciones de oferta y demanda; cada criptomoneda tiene su propio valor y aceptación en el mercado, esto se debe principalmente a sus mejoras en diversas áreas, por ejemplo: avances o innovación en su fase de desarrollo, acuerdos en la aceptación de estas como medios de pago en diferentes empresas, amplio rango de acción en intercambio con otras monedas, entre otras. Todo ello permite que el interés por unas criptomonedas o <i>tokens</i> sea más interesante que por otras, por lo tanto, aumentaría la demanda y a su vez el precio.
+    .row.justify-content-center.mb-5.fondo25.ampliarfondo.pt-5
+      .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-left")
+        p.mx-4 Otra forma de <i>trading</i> son los <i>spreads</i>, que hacen referencia a la diferencia entre el precio de compra y venta de las criptodivisas; al igual que en los mercados financieros tradicionales, se abre con una posición en el mercado: posición larga, cuando se opera con el precio de compra, y posición corta, cuando se opera con el precio de venta.
+        p.mx-4 El mercado de las criptomonedas está sujeto a las acciones de oferta y demanda; cada criptomoneda tiene su propio valor y aceptación en el mercado, esto se debe principalmente a sus mejoras en diversas áreas, por ejemplo: avances o innovación en su fase de desarrollo, acuerdos en la aceptación de estas como medios de pago en diferentes empresas, amplio rango de acción en intercambio con otras monedas, entre otras. Todo ello permite que el interés por unas criptomonedas o <i>tokens</i> sea más interesante que por otras, por lo tanto, aumentaría la demanda y a su vez el precio.
         .row.justify-content-center.my-5(data-aos="fade-left")
-          .col-xxl-12.col-xl-12.ms-5
-            .cajon.color-acento-contenido.fondo11.p-4.mb-4
+          .col-xxl-12.col-xl-12.col-lg-12.col-md-11.col-sm-11.col-11
+            .cajon.color-acento-contenido.fondo11.p-4.mb-4.mx-4
               p El <i>trading</i> a corto plazo (<i>spread</i> corto) se da cuando se compra a un valor y, a las pocas horas, se vende a un valor más alto; mientras que el <i>trading</i> a largo plazo (<i>spread</i> largo) está basado en comprar criptomonedas y, después de analizar ciertas variables, se puede predecir que su precio subirá en semanas, meses o años.
       .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-8.col-8(data-aos="fade-right")
-        img.me-5.mb-5(src='@/assets/curso/tema4/imagen3.png')
-    separador
+        img.me-5(src='@/assets/curso/tema4/imagen3.png')
 
 </template>
 <script>

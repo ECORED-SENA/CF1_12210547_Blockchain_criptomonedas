@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--blanca.h-100.d-flex.align-items-center(data-aos="fade-up-left")
           figure
-            img(src="@/assets/curso/iconosAct/arrastrar.svg", alt="Arrastrar y pegar")
+            img.tamano(src="@/assets/curso/iconosAct/arrastrar.svg", alt="Arrastrar y pegar")
       .col-12.col-md-8.col-lg-9(data-aos="fade-up-left")
         .titulo-segundo
           h2 El <i>Blockchain</i> y la criptografía
@@ -21,11 +21,11 @@
                 span Realizar
                 i.fas.fa-puzzle-piece
 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.mb-5.justify-content-center.align-items-center
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--blanca.h-100.d-flex.align-items-center(data-aos="fade-up-left")
           figure
-            img(src="@/assets/curso/iconosAct/seleccion-multiple.svg", alt="Seleccion multiple")
+            img.tamano(src="@/assets/curso/iconosAct/seleccion-multiple.svg", alt="Seleccion multiple")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="fade-up-left")
           h2 ¿Qué tanto conoces ahora de <i>Blockchain</i>?

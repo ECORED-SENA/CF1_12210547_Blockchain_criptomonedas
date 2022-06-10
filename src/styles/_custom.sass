@@ -178,6 +178,24 @@
   border: 2px solid #F08E35
   border-radius: 10px
 
+.fondo34
+  background-image: url('../assets/curso/tema1/fondo7.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo35
+  background-image: url('../assets/curso/tema2/fondo4.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo36
+  background-color: #fff
+
+.fondo37
+  background-color: #F6F6F6
+
 .alinearCelda
   vertical-align: top !important
 
@@ -185,6 +203,7 @@
   z-index: 1
 
 .subrayadominado:after
+  overflow: hidden
   width: 210px !important
   border-left: solid !important
   border-left-color: #2754BA !important
@@ -319,6 +338,49 @@
   max-width: 35% !important
   top: 10px !important
 
+.tamano
+  width: 240px
+  height: 247.5px
+
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon:after
+  background-color: #F7CE48 !important
+
+.linea-tiempo-b__icon:after
+  content: ''
+  display: block
+  width: 35px 
+  height: 4px
+  position: absolute
+  left: 77%
+  top: 50%
+  transform: translateY(-50%)
+
+.sombra
+  box-shadow: 2px 3px 3px #cccccc
+
+.alto
+  height: 400px
+
+.fondonota
+  background-color: #f6f6f6
+
+.texto-18px
+  font-size: 18px
+
+.texto-13px
+  font-size: 13px
+
+.texto-19px
+  font-size: 19px
+
+.textonegro
+  color: black !important
+
+@media (min-width: 768px)
+  .linea-tiempo-b__row:nth-child(odd) .linea-tiempo-b__icon:after
+    right: 77%
+    left: auto
+
 @media (min-width: 1400px)
   .tarjeta-avatar > img
     max-width: 30% !important
@@ -373,3 +435,17 @@
     height: 290px !important
   .adecuartexto
     font-size: 15px
+
+@media (max-width: 500px)
+  .slyder-a__bullets__item 
+    margin: 0 2px
+  .altoCuadro2
+    height: 380px !important
+  .adecuartexto
+    font-size: 11px
+
+@media (max-width: 320px)
+  .altoCuadro2
+    height: 520px !important
+  .adecuartexto
+    font-size: 7px

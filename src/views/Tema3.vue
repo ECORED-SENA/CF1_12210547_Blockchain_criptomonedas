@@ -26,8 +26,8 @@
           .col-xxl-10.col-lg-10.col-md-10.col-10
             p.my-5 De acuerdo con el Committee on Payments and Market Infrastructures, las criptomonedas no son iguales, estas se asemejan porque son digitales y no requieren intermediación para su transacción, pero existen muchos tipos de criptomonedas, tal como se pueden clasificar de acuerdo con la flor del dinero. Existen diferencias marcadas de una criptomoneda a otra, por ejemplo: el tipo de emisor, mecanismo de transferencia, accesibilidad, forma, etc.
     .titulo-sexto.mb-5.color-acento-contenido(data-aos="fade-left")
-      p.text-small Figura 3 
-        span Flor del dinero: Taxonomía
+      span.text-small.mb-0.text-bold Figura 3 
+      span Flor del dinero: Taxonomía
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-10.col-sm-10.col-11
         img(src='@/assets/curso/tema3/figura1.svg')
@@ -35,31 +35,32 @@
       .col-xxl-8.col-xl-8.col-lg-8.col-md-10.col-sm-10.col-11
         h3.mb-0.text-center.py-4.fondo17.text-white La tecnología <i>Blockchain</i> se basa en tres elementos esenciales, que son: 
 
-    .row.my-5.fondo18.justify-content-center
-      .col-xxl-12.col-lg-10.col-md-10.alinear(data-aos="fade-right")
+    .row.my-5.fondo18.ampliarfondo.justify-content-center.ps-4
+      .col-xxl-12.col-lg-12.col-md-12.alinear.pt-4(data-aos="fade-right")
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
         .titulo-segundo.ms-4.subrayadotec.adecuartexto
           h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables 
           h4.mb-0 y contratos inteligentes 
-      .col-xxl-7(data-aos="fade-left")
-        p.mt-5.ms-5 Estos elementos se basan en el principio de transparencia, debido a que todos los participantes de la red tienen acceso al libro de transacciones, nadie puede alterarlas o cambiarlas, y toda esta información se almacena en la cadena de bloques y se ejecuta automáticamente, mejorando la velocidad en las transacciones (IBM, s. f.).
-        p.ms-5 Las criptomonedas están basadas en la tecnología <i>Blockchain</i>; actualmente, existen varios tipos de criptomonedas, sin embargo, las más conocidas son el <i>Bitcoin</i> y el <i>Ethereum</i>. Estas se administran únicamente a través de carteras digitales que pueden ser una aplicación móvil o de escritorio.
-        p.ms-5 La gran diferencia entre <i>Bitcoin</i> y <i>Ethereum</i> es la forma en que se realiza el minado. En <i>Ethereum</i>, un minero puede cobrar por confirmar la transacción, además de no existir un límite para la emisión de <i>Ethereum</i>, como sí existe en <i>Bitcoin</i> (21 millones) (Plus500, s. f.-a).
+      .col-xxl-7.col-md-12.col-sm-12.col-12.pe-5.ps-3(data-aos="fade-left")
+        p.mt-5 Estos elementos se basan en el principio de transparencia, debido a que todos los participantes de la red tienen acceso al libro de transacciones, nadie puede alterarlas o cambiarlas, y toda esta información se almacena en la cadena de bloques y se ejecuta automáticamente, mejorando la velocidad en las transacciones (IBM, s. f.).
+        p Las criptomonedas están basadas en la tecnología <i>Blockchain</i>; actualmente, existen varios tipos de criptomonedas, sin embargo, las más conocidas son el <i>Bitcoin</i> y el <i>Ethereum</i>. Estas se administran únicamente a través de carteras digitales que pueden ser una aplicación móvil o de escritorio.
+        p La gran diferencia entre <i>Bitcoin</i> y <i>Ethereum</i> es la forma en que se realiza el minado. En <i>Ethereum</i>, un minero puede cobrar por confirmar la transacción, además de no existir un límite para la emisión de <i>Ethereum</i>, como sí existe en <i>Bitcoin</i> (21 millones) (Plus500, s. f.-a).
       .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-8.col-9.pe-5(data-aos="fade-right")
         img.me-5(src='@/assets/curso/tema3/cubos.svg')
 
-      .titulo-sexto.my-5.color-acento-contenido(data-aos="fade-left")
-        p.text-small Tabla 3 
+      .titulo-sexto.my-5.color-acento-contenido.ms-4(data-aos="fade-left")
+        p.text-small.mb-0 Tabla 3 
           span Comparativa entre <i>Bitcoin</i> y <i>Ethereum</i>
 
       .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
         table
-          caption Nota. Adaptada de <i>Bit2me Academy</i> (s. f.).
+          caption.fondonota
+            P Nota. Adaptada de <i>Bit2me Academy</i> (s. f.).
           tr.fondoencabezado
             td.text-bold.text-dark.columna1.justify-content-center Características
             td.text-bold.text-dark.columna2.alinear.justify-content-center
               img.ajustarcripto(src='@/assets/curso/tema3/bit.svg')
-              span.mt-3.text-bold.ms-3 <i>Bitcoin</i>
+              h4.mt-3.text-bold.ms-3 <i>Bitcoin</i>
             td.text-bold.text-dark.columna3
               img.ajustarimg.centrar(src='@/assets/curso/tema3/eth.svg')
           tr
@@ -115,9 +116,9 @@
     p.mb-5(data-aos="fade-right") Es un proceso que permite crear nuevos <i>Bitcoins</i> cada vez que alguien los envía o recibe. En este caso, los mineros procesan bloques de transacciones, lo cual es realizado por un sistema de hardware especializado (computadores de alta capacidad de procesamiento), mediante resolución de problemas complejos matemáticos.
 
     .row.justify-content-center.align-items-center.ampliarfondo.fondo19
-      .col-xxl-7.col-xl-7.col-lg-7.col-md-10.col-sm-10.col-11(data-aos="fade-right")
-        p.text-white.ms-5.mt-5 Un bloque de transacciones o cadena de bloques se va creando cada vez que los mineros descifran el algoritmo matemático y envían su respuesta; esa información se almacena en un bloque para el receptor y la información que este receptor genera también quedará en el récord de la transacción, y así sucesivamente, hasta dar por finalizada la operación, la cual quedará con toda la información generada en cada una de las transacciones realizadas. 
-        p.text-white.ms-5.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
+      .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-right")
+        p.text-white.ms-4.mt-5 Un bloque de transacciones o cadena de bloques se va creando cada vez que los mineros descifran el algoritmo matemático y envían su respuesta; esa información se almacena en un bloque para el receptor y la información que este receptor genera también quedará en el récord de la transacción, y así sucesivamente, hasta dar por finalizada la operación, la cual quedará con toda la información generada en cada una de las transacciones realizadas. 
+        p.text-white.ms-4.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-8.col-9(data-aos="fade-left")
         img.my-5(src='@/assets/curso/tema3/figura3.svg')
 
@@ -150,69 +151,69 @@
             p.ms-3 Los protocolos de consenso permiten distribuir los registros entre los diferentes usuarios de la red, asegurando que la información recibida y compartida es cierta. Además, cada usuario de la red, para operar, requiere de un sistema computacional denominado PoW (Prueba de trabajo) y una PoS (prueba de participación). Esta última será evaluada por toda la red, es decir, se puntúa cómo ha sido el desempeño del usuario en la red; en caso de actuar en forma inadecuada, podría ser expulsado, y muy posiblemente sería difícil incorporarse a otra red de minado de bloques.
             p.ms-3 Sin embargo, las recompensas a los mineros de bloques se ven limitadas por un proceso denominado <i>halving</i>, que consiste en reducir, aproximadamente cada 4 años, la creación de <i>Bitcoins</i> a la mitad. Esta operación se detendrá cuando la suma total de los <i>Bitcoins</i> generados llegue a los 21 millones. Lograda esta cifra, los mineros serán recompensados por las numerosas y pequeñas tasas de transacciones.       
           .col-md-7
-            .tabla-a.color-primario.mb-5 
+            .tabla-a.color-primario.mb-5.me-4
               table
-                caption Fuente: Plus500, 2022.
+                caption.fondonota
+                  p Fuente: Plus500, 2022.
                 thead.fondo17
                   tr
-                    th.text-center.text-white Event
-                    th.text-center.text-white Date
+                    th.text-center.text-white.texto-19px Event
+                    th.text-center.text-white.texto-19px Date
                     th
-                      h4.text-center.text-white Block 
-                      span.text-small.text-white event after 
-                      span.text-small.text-white every 210,000
+                      h4.text-center.text-white.texto-19px.mb-0 Block 
+                      span.texto-13px.text-white.mb-0.text-bold.mb-0 event after 
+                      span.texto-13px.mb-0.text-white.text-bold.mb-0 every 210,000
                     th
-                      h4.text-center.text-white Mining 
-                      h4.text-white reward 
-                      span.text-small.text-white (BTC)
+                      h4.text-center.text-white.texto-19px.mb-0 Mining 
+                      h4.text-white.texto-19px.mb-0 reward 
+                      span.texto-13px.mb-0.text-white.text-bold.mb-0  (BTC)
                     th
-                      h4.text-center.text-white BTC 
-                      h4.text-white mined 
-                      span.text-small.text-white (%)
+                      h4.text-center.text-white.texto-19px.mb-0 BTC 
+                      h4.text-white.texto-19px.mb-0 mined 
+                      span.texto-13px.mb-0.text-white.text-bold.mb-0  (%)
                 tbody
-                  tr
+                  tr.fondo37
                     td <i>Bitcoin</i> is Launched
                     td 03/01/2009
                     td 0
                     td 50
                     td 50
-                  tr
+                  tr.fondo36
                     td Halving 1
                     td 28/11/2012
                     td 210,000
                     td 25
                     td 75
-                  tr
+                  tr.fondo37
                     td Halving 2
                     td 09/17/2016
                     td 420,000
                     td 12.5
                     td 87.5
-                  tr
+                  tr.fondo36
                     td.text-bold Halving 3
                     td.text-bold May 2020
                     td.text-bold 630,000
                     td.text-bold 6.25
                     td.text-bold 93.75
-                  tr
+                  tr.fondo37
                     td Halving 4
                     td 2024
                     td 840,000
                     td 3.125
                     td 96.875     
-                  tr
+                  tr.fondo36
                     td Halving 5
                     td 2028
                     td 1,050,000
                     td 1.5625
                     td 98.4375
-                  tr
+                  tr.fondo37
                     td Halving 6
                     td 2032
                     td 1,260,000
                     td 0.78125
                     td 99.21875
-    separador
 </template>
 <script>
 import BannerInterno from '../components/BannerInterno.vue'

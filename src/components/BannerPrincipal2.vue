@@ -47,7 +47,7 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 50px  !important
   z-index: 3
   @media screen and ( max-width: 992px)
     padding-left: 30px !important

@@ -48,16 +48,16 @@
     p.my-5(data-aos="fade-up-right") El <i>Blockchain</i>, o cadena de bloques, cumple con los criterios de transparencia y confiabilidad, por lo tanto, contiene todo el historial de las transacciones realizadas. Esta tecnología limita el riesgo de fraude, optimiza tareas, aumenta la velocidad de las transacciones, descentraliza las tareas, entre otras; toca esperar avances en legislación y normatividad, pero por lo pronto es una tecnología que llegó para quedarse.
     p.mb-5(data-aos="fade-up-left") Por último, y como ya se ha visto, además de las criptomonedas y los casos presentados, la tecnología <i>Blockchain</i> es usada con infinidad de aplicaciones y campos de acción; a continuación, se presentan otras aplicaciones actuales que le podrán servir de guía para su aplicación en el campo laboral:
     .row.justify-content-center
-      .col-xxl-10.col-xl-10.col-lg-10.col-md-10.col-sm-11.col-12(data-aos="fade-up-right")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .col-xxl-10.col-xl-10.col-lg-10.col-md-10.col-sm-11.col-12
+        AcordionA.mb-5(data-aos="fade")(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Almacenamiento en la nube")
-            .col-md-3.col-11.col-sm-8
+            .col-md-3.col-10.col-sm-8
               figure
                 img.ms-5.mb-3(src='@/assets/curso/tema5/imagen2.png')
             .col-md-9.mb-4.mb-md-0
               p.ms-5 La tecnología <i>Blockchain</i>, como aplicación de almacenamiento en la nube, genera seguridad y descentralización, debido a que se puede guardar la información en nodos distintos de almacenamiento; por lo tanto, se convierte en un sistema robusto ante la caída de cualquier servidor por algún ataque cibernético.
           .row(titulo="Gestión de identidad")
-            .col-md-3.col-11.col-sm-8
+            .col-md-3.col-10.col-sm-8
               figure
                 img.ms-5.mb-3(src='@/assets/curso/tema5/imagen3.png')
             .col-md-9.mb-4.mb-md-0
@@ -73,28 +73,27 @@
             .col-md-12.mb-4.mb-md-0.ps-5
               p.p-3.fondo33.ms-4 El <i>Blockchain</i> se puede utilizar para almacenar cualquier tipo de información, lo que genera un libro de registros distribuidos, aumentando la seguridad, diferencia importante con las bases de datos actuales, que son gestionadas por un tercero. 
               p.mb-4.ms-4 Algunos ejemplos de estas aplicaciones, tanto en el sector público como privado: clínicas y hospitales, para las historias clínicas de los pacientes y el registro de afiliados; finca raíz, para los registros de los propietarios, verificación del estado del terreno o del inmueble en registros públicos; protección de los derechos de autor, para cifrar y proteger los contenidos digitales que se generan y evitar la piratería; registros notariales, como nacimientos, matrimonios, divorcios, defunciones, entre otros, podrán ser un certificado legal a nivel internacional en tan solo unos años, inclusive, se podría pensar en crear un registro de antecedentes penales a nivel mundial con el uso del <i>Blockchain</i>.
-          div(titulo="Ejecución de contratos")
-            .row.justify-content-center
-              .col-xxl-9
-                p Con el <i>Blockchain</i>, se han creado los <i>Smart Contracts</i>, capaces de ejecutarse y renovarse de forma automática, sin la necesidad de que alguno de los interesados intervenga.
-                p.text-center.text-bold.my-4 <i>Smart Contratcs</i>
-              .col-xxl-8
-                figure
-                  img(src='@/assets/curso/tema5/figura1.svg')
+          .row(titulo="Ejecución de contratos")
+            .col-xxl-9.ps-4
+              p.ms-5 Con el <i>Blockchain</i>, se han creado los <i>Smart Contracts</i>, capaces de ejecutarse y renovarse de forma automática, sin la necesidad de que alguno de los interesados intervenga.
+              p.text-center.text-bold.my-4 <i>Smart Contratcs</i>
+            .col-xxl-10.col-md-11.col-sm-11.col-10.ps-5
+              figure
+                img.ms-5(src='@/assets/curso/tema5/figura1.svg')
           .row(titulo="Cadena de suministros")
-            .col-md-3.col-11.col-sm-8
+            .col-md-3.col-10.col-sm-8
               figure
                 img.ms-5.mb-3(src='@/assets/curso/tema5/imagen4.png')
             .col-md-9.mb-4.mb-md-0
               p.ms-5 En el campo de la logística, el uso de <i>Blockchain</i> ha mejorado los niveles de confianza de los suministros, debido a que integra toda la hoja de ruta del producto a suministrar y la guía exacta del estado del paquete enviado.
           .row(titulo="Sistema de votación")
-            .col-md-3.col-11.col-sm-8
+            .col-md-3.col-10.col-sm-8
               figure
                 img.ms-5.mb-3(src='@/assets/curso/tema5/imagen5.png')
             .col-md-9.mb-4.mb-md-0
               p.ms-5 Con el sistema de voto electrónico que existe en la actualidad, al fusionarse con <i>Blockchain</i>, aportará más seguridad y manipulación de los resultados casi nula, debido a la encriptación de la cadena.
           .row(titulo="Internet de las cosas (IoT)")
-            .col-md-3.col-12.col-sm-10
+            .col-md-3.col-10.col-sm-8
               figure
                 img.ms-5.mb-3(src='@/assets/curso/tema5/imagen6.png')
             .col-md-9.mb-4.mb-md-0
