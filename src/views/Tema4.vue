@@ -6,6 +6,10 @@
       .titulo-principal__numero
         span 4
       h1 <i>Trading</i>
+    figure.mb-5(data-aos="fade-up-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_KweERyDgQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.my-5(data-aos="fade-left") El <i>trading</i> en criptoactivos es la acción de tomar posición financiera de venta o de compra al precio de una criptomoneda frente al dólar (Criptomoneda-dólar) o frente a otra criptomoneda (Criptomoneda-Criptomoneda) (Plus500, s. f.-c).
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-9.col-11
