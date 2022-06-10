@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF1_12210547_Blockchain_criptomonedas/](https://ecored-sena.github.io/CF1_12210547_Blockchain_criptomonedas/)
 
 #
 
