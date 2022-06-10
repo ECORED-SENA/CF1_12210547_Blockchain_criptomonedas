@@ -260,41 +260,47 @@ export default {
   ],
   complementario: [
     {
-      texto:
+      tema: '<i>Blockchain</i>',
+      referencia:
         'Espinosa, S. (2020). Guía de Referencia de <i>Blockchain</i> para la Adopción e Implementación de Proyectos en el Estado Colombiano. Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC].',
       tipo: 'Página web',
       link: 'https://gobiernodigital.mintic.gov.co/692/articles-161810_pdf.pdf',
     },
     {
-      texto:
+      tema: '<i>Blockchain</i>',
+      referencia:
         'Rojo, M. (2019). <i>Blockchain</i>. Fundamentos De La Cadena De Bloques. Ediciones De La U.',
       tipo: 'Página web',
       link:
         'https://login.bdigital.sena.edu.co/login?url=http://www.ebooks7-24.com/?il=9093 ',
     },
     {
-      texto:
+      tema: '<i>Blockchain</i>',
+      referencia:
         'Böhme, R., Christin, N., Edelman, B. y Moore, T. (2015). <i>Bitcoin: Economics, Technology, and Governance. The Journal of Economic Perspectives</i>, 29(2), p. 213-238.',
       tipo: 'Artículo científico',
       link:
         'https://login.bdigital.sena.edu.co/login?url=https://gateway.proquest.com/openurl?issn=0895-3309&spage=213&url_ver=Z39.88-2004&date=2015-04-01&genre=article&issue=2&res_dat=xri%3Apqm&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Aarticle&volume=29&rfr_id=info%3Axri%2Fsid%3Aprimo&jtitle=The%2BJournal%2Bof%2BEconomic%2BPerspectives&req_dat=xri%3Apqil%3Aclntid%3D31491',
     },
     {
-      texto:
+      tema: '<i>Blockchain</i>',
+      referencia:
         '<i>CEU IAM Business School</i>. (2019). <i>Blockchain</i> y su aplicación en el ámbito financiero. [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=lkO168P39Z0&ab_channel=CEUIAMBusinessSchool ',
     },
     {
-      texto:
+      tema: 'Criptomonedas',
+      referencia:
         'Congreso de la República de Colombia. (2018). Proyecto de ley: “Por el cual se regula el uso de las monedas virtuales o criptomonedas y las formas de transacción con éstas en el territorio de Colombia y se dictan otras disposiciones”.',
       tipo: 'Proyecto de ley',
       link:
         'http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2018%20-%202019/PL%20028-18%20Criptomonedas.pdf',
     },
     {
-      texto:
+      tema: 'Criptomonedas',
+      referencia:
         'Gomila, J. (2021) ¿Qué tan complicado es el problema matemático que se resuelve al minar un bloque en <i>Blockchain</i>? [Video]. YouTube.',
       tipo: 'Video',
       link:
