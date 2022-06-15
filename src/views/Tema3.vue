@@ -39,8 +39,8 @@
       .col-xxl-12.col-lg-12.col-md-12.alinear.pt-4(data-aos="fade-right")
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
         .titulo-segundo.ms-4.subrayadotec.adecuartexto
-          h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables 
-          h4.mb-0 y contratos inteligentes 
+          h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables y contratos inteligentes
+          //--h4.mb-0 y contratos inteligentes 
       .col-xxl-7.col-md-12.col-sm-12.col-12.pe-5.ps-3(data-aos="fade-left")
         p.mt-5 Estos elementos se basan en el principio de transparencia, debido a que todos los participantes de la red tienen acceso al libro de transacciones, nadie puede alterarlas o cambiarlas, y toda esta información se almacena en la cadena de bloques y se ejecuta automáticamente, mejorando la velocidad en las transacciones (IBM, s. f.).
         p Las criptomonedas están basadas en la tecnología <i>Blockchain</i>; actualmente, existen varios tipos de criptomonedas, sin embargo, las más conocidas son el <i>Bitcoin</i> y el <i>Ethereum</i>. Estas se administran únicamente a través de carteras digitales que pueden ser una aplicación móvil o de escritorio.
@@ -57,12 +57,17 @@
           caption.fondonota
             P Nota. Adaptada de <i>Bit2me Academy</i> (s. f.).
           tr.fondoencabezado
-            td.text-bold.text-dark.columna1.justify-content-center Características
+            td.text-bold.text-dark.columna1.justify-content-center 
+              h4 Características
             td.text-bold.text-dark.columna2.alinear.justify-content-center
               img.ajustarcripto(src='@/assets/curso/tema3/bit.svg')
               h4.mt-3.text-bold.ms-3 <i>Bitcoin</i>
             td.text-bold.text-dark.columna3
-              img.ajustarimg.centrar(src='@/assets/curso/tema3/eth.svg')
+              .row.justify-content-center
+                .col-xxl-1.col-xl-2.col-lg-4.col-md-6.col-sm-6.col-6.p-0
+                  img.ajustarcripto(src='@/assets/curso/tema3/ethe.svg')
+                .col-xxl-2.col-xl-2.col-lg-2.col-md-4.col-sm-6.col-6.p-0
+                  h4.mt-3.ps-3 <i>Ethereum</i>
           tr
             td.bordetabla.columna1 Creador
             td.bordetabla.columna2 Satoshi Nakamoto
@@ -117,8 +122,8 @@
 
     .row.justify-content-center.align-items-center.ampliarfondo.fondo19
       .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-11.col-11(data-aos="fade-right")
-        p.text-white.ms-4.mt-5 Un bloque de transacciones o cadena de bloques se va creando cada vez que los mineros descifran el algoritmo matemático y envían su respuesta; esa información se almacena en un bloque para el receptor y la información que este receptor genera también quedará en el récord de la transacción, y así sucesivamente, hasta dar por finalizada la operación, la cual quedará con toda la información generada en cada una de las transacciones realizadas. 
-        p.text-white.ms-4.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
+        p.text-white.mx-3.mt-5 Un bloque de transacciones o cadena de bloques se va creando cada vez que los mineros descifran el algoritmo matemático y envían su respuesta; esa información se almacena en un bloque para el receptor y la información que este receptor genera también quedará en el récord de la transacción, y así sucesivamente, hasta dar por finalizada la operación, la cual quedará con toda la información generada en cada una de las transacciones realizadas. 
+        p.text-white.mx-3.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-8.col-9(data-aos="fade-left")
         img.my-5(src='@/assets/curso/tema3/figura3.svg')
 

@@ -33,7 +33,7 @@
         LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
     separador
     .row.ampliarfondo.fondo34
-      .col-xxl-12.ps-5
+      .col-xxl-12.px-5
         #caracteristica.titulo-segundo.color-acento-contenido.my-5(data-aos="fade-down-right")
           h2 1.1 Características
 
@@ -373,7 +373,7 @@
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
       table
         caption.fondonota 
-        p Nota. Adaptación de Noriega (2021).
+          p.mb-0 Nota. Adaptación de Noriega (2021).
         tr.fondoencabezado
           td.text-bold.text-dark.columna1 
             h4 Centralización
@@ -448,11 +448,11 @@
           p Nota. Basada en Espinosa (2020).
         tr
           th.padCelda 
-            p.fondo10.text-center ¿En qué consiste?
+            h3.fondo10.text-center ¿En qué consiste?
           td Contribuir a reducir la corrupción a través de transparencia en el proceso de licitación pública y de alertas por parte de la sociedad civil, organizaciones y ciudadanía dirigidas a la PGN, a través de un piloto utilizando tecnología <i>Blockchain</i> y “contratos inteligentes” para poder contar con registros de información inmodificables durante el proceso de licitación pública, para la presentación de ofertas y evolución de las mismas.
         tr
           th 
-            p.fondo10.text-center ¿Qué se quiere lograr?
+            h3.fondo10.text-center ¿Qué se quiere lograr?
           td 
             .row
               .col-md.mb-5.mb-sm-0
@@ -468,7 +468,7 @@
                     span Estructurar, de acuerdo con los resultados observados, un proyecto que permita escalar el impacto a  diferentes entidades gubernamentales o aplicaciones.
         tr
           th 
-            p.fondo10.text-center ¿Con quién?
+            h3.fondo10.text-center ¿Con quién?
           td FEM, Procuraduría General de la Nación, Universidad Nacional, Alcaldía de Medellín, Quanstamp, Colombia Compra Eficiente.
     .row.justify-content-center.my-5
       .col-xxl-10
