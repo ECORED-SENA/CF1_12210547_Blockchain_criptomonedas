@@ -108,7 +108,7 @@
           span Clasificación de la criptografía
         img(data-aos="fade-down-right")(src='@/assets/curso/tema2/figura4.svg')
     .row.fondo35.ampliarfondo
-      .col-xxl-12.ps-5
+      .col-xxl-12.ps-5.pe-5
         p.my-5(data-aos="fade-down-right") Para entender mejor la criptografía, es importante conocer algunos términos comunes:
         .row.mb-5(data-aos="fade-down-left")
           .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0.mb-4
