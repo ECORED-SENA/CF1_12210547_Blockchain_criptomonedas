@@ -36,7 +36,7 @@
       .col-xxl-12.px-5
         #caracteristica.titulo-segundo.color-acento-contenido.my-5(data-aos="fade-down-right")
           h2 1.1 Características
-
+        p.mb-5 La tecnología de cadena de bloques está siendo implementada en el mundo entero, gracias a su demostrada solidez, que garantiza la veracidad y transparencia de las transacciones comerciales, debido a que posee las siguientes características:
         .row.mb-5(data-aos="fade-down-left")
           .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0.mb-4
             .tarjeta-numerada.color-secundario.p-5.altoCuadro
@@ -108,7 +108,7 @@
       .col-xxl-12.fondo2
         .row.justify-content-center.align-items-center(data-aos="fade-down")
           .col-xxl-4.col-xl-4.col-lg-4.col-md-10.col-sm-10.col-12.pt-4
-            h4.text-white.mt-5.mb-4 arquitectura <i>Blockchain</i>
+            h4.text-white.mt-5.mb-4 Arquitectura <i>Blockchain</i>
             p.text-white.mb-4 Como tecnología de contabilidad distribuida (DLT), la cadena de bloques está diseñada intencionalmente para ser altamente resistente a modificaciones y fraudes (como el doble gasto).
             .row.justify-content-center.align-items-center
               .col-xxl-11
@@ -506,7 +506,7 @@
           .col-md-4.mb-4.mb-md-0
             h4 Consenso comunitario
             p Se refiere a la exigencia de un consenso mayoritario entre los nodos de la red para la adición, validación o ejecución de transacciones. 
-            p Previamente, deben pactar un <i>consensus protocol</i>, es decir, un protocolo informático compartido de verificación y construcción de los bloques. 
+            p Previamente, deben pactar un <i style="font-weight: 700;">consensus protocol</i>, es decir, un protocolo informático compartido de verificación y construcción de los bloques. 
           .col-md-7
             figure
               img(src='@/assets/curso/tema1/imagen4.png', alt='Consenso comunitario')
@@ -514,7 +514,7 @@
           .col-md-4.mb-4.mb-md-0
             h4 Desintermediación
             p Aspecto diferencial de esta tecnología, puesto que los procedimientos, procesos y operaciones que ocurren en la red se realizan sin supervisión ni mediación de un tercero. 
-            p a autonomía de la red se fundamenta en el consensus protocol. De esta forma, el <i>Blockchain</i> se caracteriza por su carácter libre y autónomo. 
+            p a autonomía de la red se fundamenta en el <i style="font-weight: 700;">consensus protocol</i>. De esta forma, el <i>Blockchain</i> se caracteriza por su carácter libre y autónomo. 
         
           .col-md-7
             figure

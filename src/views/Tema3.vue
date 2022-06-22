@@ -40,7 +40,6 @@
         img.ajustarcubo(src='@/assets/curso/tema3/cubito.svg')
         .titulo-segundo.ms-4.subrayadotec.adecuartexto
           h4.mb-0 Tecnología de libro mayor distribuido, registros inalterables y contratos inteligentes
-          //--h4.mb-0 y contratos inteligentes 
       .col-xxl-7.col-md-12.col-sm-12.col-12.pe-5.ps-3(data-aos="fade-left")
         p.mt-5 Estos elementos se basan en el principio de transparencia, debido a que todos los participantes de la red tienen acceso al libro de transacciones, nadie puede alterarlas o cambiarlas, y toda esta información se almacena en la cadena de bloques y se ejecuta automáticamente, mejorando la velocidad en las transacciones (IBM, s. f.).
         p Las criptomonedas están basadas en la tecnología <i>Blockchain</i>; actualmente, existen varios tipos de criptomonedas, sin embargo, las más conocidas son el <i>Bitcoin</i> y el <i>Ethereum</i>. Estas se administran únicamente a través de carteras digitales que pueden ser una aplicación móvil o de escritorio.
@@ -126,27 +125,27 @@
         p.text-white.mx-3.mb-5 Los mineros deben validar que la solución del algoritmo matemático sea correcta, para evitar duplicaciones y lograr una red más segura; por lo tanto, cada nodo de minería <i>Bitcoin</i> rechazará todo aquello que no se ajuste a las normas de los sistemas a minar. 
       .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-8.col-9(data-aos="fade-left")
         img.my-5(src='@/assets/curso/tema3/figura3.svg')
-
+    p.my-5 Este proceso de minado debe cumplir tres principios fundamentales para dar cumplimiento a la seguridad de la cadena:
     TabsC.color-acento-contenido.my-5(data-aos="fade-right")
       .py-3.py-md-4.fondo21(titulo="El <i>hash</i>")
         .row.justify-content-center
           .col-xxl-12.col-xl-12.col-lg-12.col-12.col-md-12.mb-4.mb-md-0.my-5.mx-4
-            p Es un código alfanumérico que se obtiene al aplicar una función matemática (función hash) a un conjunto de datos concatenados. Este hash contiene toda la información relevante que se quiere encriptar; por lo general, contiene el número de bloque, las transacciones y la firma digital de la persona que valida la transacción.
-            p Sin embargo, aunque esto permite en cada bloque tener un hash único y diferente, se deben introducir otras dos piezas fundamentales para aumentar la seguridad de la cadena: 
+            p Es un código alfanumérico que se obtiene al aplicar una función matemática (función <i>hash</i>) a un conjunto de datos concatenados. Este <i></i> contiene toda la información relevante que se quiere encriptar; por lo general, contiene el número de bloque, las transacciones y la firma digital de la persona que valida la transacción.
+            p Sin embargo, aunque esto permite en cada bloque tener un <i>hash</i> único y diferente, se deben introducir otras dos piezas fundamentales para aumentar la seguridad de la cadena: 
         
           .col-xxl-5.col-xl-5.col-lg-5.col-10.col-md-8.mx-4.mb-5.fondo20
             img(src='@/assets/curso/tema3/figura4.svg')
-            p.text-center.text-bold.mt-4 Hash previo
-            p.text-center En la concatenación, al integrar el hash de cada bloque, se debe introducir el hash del bloque previo; de esta forma, se va generando una pila o un libro con toda la información; de este modo, si alguien llegase a alterar la información de un bloque, todos los hashes posteriores, incluyendo el <i>hash</i> modificado, pasarán a ser inválidos (se propaga el error a todos los bloques siguientes de la cadena).
+            p.text-center.text-bold.mt-4 <i>hash</i> previo
+            p.text-center En la concatenación, al integrar el <i>hash</i> de cada bloque, se debe introducir el <i>hash</i> del bloque previo; de esta forma, se va generando una pila o un libro con toda la información; de este modo, si alguien llegase a alterar la información de un bloque, todos los <i>hashes</i> posteriores, incluyendo el <i>hash</i> modificado, pasarán a ser inválidos (se propaga el error a todos los bloques siguientes de la cadena).
           .col-xxl-5.col-xl-5.col-lg-5.col-10.col-md-8.mx-4.mb-5.fondo20
             img(src='@/assets/curso/tema3/figura5.svg')
-            p.text-center.text-bold.mt-4 Nonce
-            p.text-center Código alfanumérico aleatorio. Un hash no solo identifica un bloque, sino que además debe introducir seguridad; por lo tanto, si solo se concatena el bloque, la transacción, la firma y el <i>hash</i> del nuevo bloque, la desencriptación por medio de la función matemática siempre sería la misma; de esta forma, se debe introducir un código aleatorio, que sería el Nonce.
+            p.text-center.text-bold.mt-4 <i>Nonce</i>
+            p.text-center Código alfanumérico aleatorio. Un <i>hash</i> no solo identifica un bloque, sino que además debe introducir seguridad; por lo tanto, si solo se concatena el bloque, la transacción, la firma y el <i>hash</i> del nuevo bloque, la desencriptación por medio de la función matemática siempre sería la misma; de esta forma, se debe introducir un código aleatorio, que sería el <i>Nonce</i>.
       .py-3.py-md-4.fondo21(titulo="Capacidad de rechazar transacciones y bloques inválidos")
         .row.justify-content-center.align-items-center
           .col-xxl-8.col-xl-8.col-lg-8.col-11.col-md-10.mb-4.mb-md-0.my-5
             p Cuando a cada nodo le llega una transacción, automáticamente se verifica que las operaciones involucradas sean correctas, es decir, coherentes y consistentes.
-            p Para que las transacciones sean aceptadas, deben tener hashes válidos; si por algún motivo dentro de la red existe un usuario que lograse introducir un bloque malicioso, al siguiente usuario que le toca proponer un código y este no resultase malicioso, entonces la nueva versión obviará el bloque malicioso introducido.
+            p Para que las transacciones sean aceptadas, deben tener <i>hashes</i> válidos; si por algún motivo dentro de la red existe un usuario que lograse introducir un bloque malicioso, al siguiente usuario que le toca proponer un código y este no resultase malicioso, entonces la nueva versión obviará el bloque malicioso introducido.
           .col-xxl-3.col-xl-3.col-lg-3.col-6.col-md-4.col-sm-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema3/figura6.svg')        
@@ -162,63 +161,64 @@
                   p Fuente: Plus500, 2022.
                 thead.fondo17
                   tr
-                    th.text-center.text-white.texto-19px Event
-                    th.text-center.text-white.texto-19px Date
+                    th.text-center.text-white.texto-19px <i>Event</i>
+                    th.text-center.text-white.texto-19px <i>Date</i>
                     th
-                      h4.text-center.text-white.texto-19px.mb-0 Block 
-                      span.texto-13px.text-white.mb-0.text-bold.mb-0 event after 
-                      span.texto-13px.mb-0.text-white.text-bold.mb-0 every 210,000
+                      h4.text-center.text-white.texto-19px.mb-0 <i>Block</i> 
+                      span.texto-13px.text-white.mb-0.text-bold.mb-0 <i>Event after </i><br/> 
+                      span.texto-13px.mb-0.text-white.text-bold.mb-0 <i>every</i> 210,000
                     th
-                      h4.text-center.text-white.texto-19px.mb-0 Mining 
-                      h4.text-white.texto-19px.mb-0 reward 
+                      h4.text-center.text-white.texto-19px.mb-0 <i>Mining</i> 
+                      h4.text-white.texto-19px.mb-0 <i>reward</i>  
                       span.texto-13px.mb-0.text-white.text-bold.mb-0  (BTC)
                     th
                       h4.text-center.text-white.texto-19px.mb-0 BTC 
-                      h4.text-white.texto-19px.mb-0 mined 
+                      h4.text-white.texto-19px.mb-0 <i>mined</i> 
                       span.texto-13px.mb-0.text-white.text-bold.mb-0  (%)
                 tbody
                   tr.fondo37
-                    td <i>Bitcoin</i> is Launched
+                    td <i>Bitcoin is Launched</i>
                     td 03/01/2009
                     td 0
                     td 50
                     td 50
                   tr.fondo36
-                    td Halving 1
+                    td <i>Halving</i> 1
                     td 28/11/2012
                     td 210,000
                     td 25
                     td 75
                   tr.fondo37
-                    td Halving 2
+                    td <i>Halving</i> 2
                     td 09/17/2016
                     td 420,000
                     td 12.5
                     td 87.5
                   tr.fondo36
-                    td.text-bold Halving 3
+                    td.text-bold <i>Halving</i> 3
                     td.text-bold May 2020
                     td.text-bold 630,000
                     td.text-bold 6.25
                     td.text-bold 93.75
                   tr.fondo37
-                    td Halving 4
+                    td <i>Halving</i> 4
                     td 2024
                     td 840,000
                     td 3.125
                     td 96.875     
                   tr.fondo36
-                    td Halving 5
+                    td <i>Halving</i> 5
                     td 2028
                     td 1,050,000
                     td 1.5625
                     td 98.4375
                   tr.fondo37
-                    td Halving 6
+                    td <i>Halving</i> 6
                     td 2032
                     td 1,260,000
                     td 0.78125
                     td 99.21875
+
 </template>
 <script>
 import BannerInterno from '../components/BannerInterno.vue'

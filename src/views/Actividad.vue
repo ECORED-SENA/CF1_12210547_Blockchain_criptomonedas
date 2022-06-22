@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--blanca.h-100.d-flex.align-items-center(data-aos="fade-up-left")
           figure
-            img.tamano(src="@/assets/curso/iconosAct/arrastrar.svg", alt="Arrastrar y pegar")
+            img.tamano(src="@/assets/curso/iconosAct/completar-espacios.svg", alt="Arrastrar y pegar")
       .col-12.col-md-8.col-lg-9(data-aos="fade-up-left")
         .titulo-segundo
           h2 El <i>Blockchain</i> y la criptografía
@@ -15,9 +15,9 @@
         .tarjeta.tarjeta--azul.p-3(data-aos="fade-up-right")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0 Actividad didáctica de completar espacios.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad01/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
@@ -33,9 +33,9 @@
         .tarjeta.tarjeta--azul.p-3(data-aos="fade-up-right")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0 Actividad didáctica de selección múltiple.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad02/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

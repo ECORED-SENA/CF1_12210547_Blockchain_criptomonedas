@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Fundamentos, aplicación y análisis del Blockchain en el ámbito financiero',
+      'Fundamentos, aplicación y análisis del <i>Blockchain</i> en el ámbito financiero',
     descripcionCurso:
       'La tecnología <i>Blockchain</i> surge como respuesta a la necesidad de digitalizar las transacciones comerciales. Ya se vienen realizando transacciones soportadas en <i>Blockchain</i>, gracias a que esta responde a criterios de operatividad que garantizan la trazabilidad, la seguridad, la centralización y el anonimato; sumado a que, con la criptografía apropiada y la redistribución de datos, la información queda consignada en los diferentes bloques.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
@@ -72,7 +72,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Trading',
+        titulo: '<i>Trading</i>',
         desarrolloContenidos: true,
       },
       {
@@ -248,7 +248,7 @@ export default {
         'Código alfanumérico que se obtiene al aplicar una función matemática a un conjunto de datos concatenados. Contiene toda la información relevante que se quiere encriptar.',
     },
     {
-      termino: '<i>Nonce</i>>',
+      termino: '<i>Nonce</i>',
       significado:
         'Código alfanumérico aleatorio que identifica un bloque e introduce seguridad.',
     },
@@ -322,6 +322,32 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Norma Constanza Morales Cruz',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Abel Fernando Becerra Carrillo',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de la industria, la empresa y los servicios Región Norte de Santander',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -348,19 +374,43 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
