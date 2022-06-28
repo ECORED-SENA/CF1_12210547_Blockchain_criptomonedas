@@ -202,7 +202,7 @@ export default {
       referencia:
         'Superintendencia de Sociedades. (2020). Oficio 100-237890 del 14 de diciembre de 2020. Asunto: Criptoactivos – su utilización en actos de comercio - aporte en especie al capital de una sociedad.',
       link:
-        'https://www.supersociedades.gov.co/nuestra_entidad/normatividad/normatividad_conceptos_juridicos/OFICIO_100-237890_DE_2020.pdf',
+        'https://www.portaltributariodecolombia.com/descargar/oficio-100-237890-del-14-de-diciembre-de-2020-utilizacion-de-criptoactivos-aporte-sociedad-pdf/',
     },
     {
       referencia:

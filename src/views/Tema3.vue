@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/imagen1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Las criptomonedas son una de las muchas aplicaciones del <i>Blockchain</i>, se caracterizan por ser un activo digital cuyas transacciones se realizan entre usuarios anónimos mediante una clave pública.
+            p.mb-0 Las criptomonedas son una de las muchas aplicaciones del <i>Blockchain</i>, se caracterizan por ser un activo digital cuyas transacciones se realizan entre usuarios anónimos mediante una clave pública. 
             p.mb-0 Todo usuario maneja una clave privada (única por usuario) y una clave pública, que es la que se comparte con los demás usuarios de la red (Dwyer, 2014).
     .row.fondo16.pt-5
       .col-xxl-12.pt-5
