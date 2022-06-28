@@ -36,7 +36,7 @@
                 img.ajustarimagen.mb-3(src='@/assets/curso/tema2/imagen3.jpg')
             .col-md-9.mb-4.mb-md-0
               p En Roma, Julio César utilizó el cifrado de César, que consistía en el desplazamiento de la letra de cada palabra por una que se encontraba en posición fija en el abecedario, la cual debía ser reemplazada para comprender el mensaje. 
-              p El mundo árabe conoció la criptografía en la Edad Media, llamada análisis de frecuencia, donde se analizaba el mensaje a través de la correlación, buscando patrones repetitivos, a través de lo cual se dió robustez a esta técnica.
+              p El mundo árabe conoció la criptografía en la Edad Media, llamada análisis de frecuencia, donde se analizaba el mensaje a través de la correlación, buscando patrones repetitivos, a través de lo cual se dio robustez a esta técnica.
 
           .row(numero="4" titulo="El primer tratado y su potencial para uso bélico")
             .col-md-3

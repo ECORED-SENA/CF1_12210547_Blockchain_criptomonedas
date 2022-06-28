@@ -44,7 +44,7 @@
                 .h2 1
               p
                 b Inmutable 
-              p Los registros almacenados en ella no se pueden alterar, ya que toda la red tiene una copia del 100% de los registros y se pueden validar por consenso.
+              p Los registros almacenados en ella no se pueden alterar, ya que toda la red tiene una copia del 100 % de los registros y se pueden validar por consenso.
           .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-11.col-11.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-secundario.py-5.ps-5.pe-3.mb-4.altoCuadro
               .tarjeta-numerada__numero
@@ -91,7 +91,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h4.text-white.text-bold.mb-0 ¿Qué es y cómo funciona <i></i>?
+                      h4.text-white.text-bold.mb-0 ¿Qué es y cómo funciona<i></i>?
                       p.text-white Conoce más sobre el <i>Blockchain</i> y su estructura.
                     .col-sm-auto
                       a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=C5NZnD12yjg' target="_blank")
@@ -215,7 +215,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white.text-bold.mb-0  ¿Cómo es la Arquitectura del <i>Blockchain</i>.
+                  h4.text-white.text-bold.mb-0  ¿Cómo es la Arquitectura del <i>Blockchain</i>?
                   p.text-white Conoce más sobre cómo está compuesto el <i>Blockchain</i>.
                 .col-sm-auto
                   a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=VbFuietSVhk' target="_blank")
@@ -242,7 +242,7 @@
           .col-xxl-8.col-xl-8.col-lg-8.col-md-6
             h4.mx-4 <i>Blockchain</i> privado
             p.mx-4 Las cadenas privadas o cerradas tienen sus particularidades y, para hacer parte de ellas, debe ser aceptado previamente. Los <i>Blockchain</i> privados son controlados por una única organización o consorcio que determina quién puede leerlos, presentar transacciones en ellos y participar en el proceso de consenso. 
-            p.mx-4 Dado que están 100% centralizados, los <i>Blockchain</i> privados son además útiles como entornos de prueba.
+            p.mx-4 Dado que están 100 % centralizados, los <i>Blockchain</i> privados son además útiles como entornos de prueba.
           .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-8.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema1/privado.svg', alt='Blockchain privado') 
@@ -497,7 +497,7 @@
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             h4 Criptografía asimétrica de claves dobles
-            p Posibilita que los datos conectados de forma codificada en el registro sean seguros frente a posibles injerencias. Además, aporta irreversibilidad e inmutabilidad a los bloques de la cadena. La utilización de las claves dobles se realiza por medio de la firma digital electrónica. En el <i>Blockchain</i>, para poder realizar una transacción, es necesario que el usuario (dlt)introduzca dos claves criptográficas asimétricas: una pública conocida por todos y otra privada que únicamente él conoce. 
+            p Posibilita que los datos conectados de forma codificada en el registro sean seguros frente a posibles injerencias. Además, aporta irreversibilidad e inmutabilidad a los bloques de la cadena. La utilización de las claves dobles se realiza por medio de la firma digital electrónica. En el <i>Blockchain</i>, para poder realizar una transacción, es necesario que el usuario (DLT) introduzca dos claves criptográficas asimétricas: una pública conocida por todos y otra privada que únicamente él conoce. 
         
           .col-md-7
             figure
@@ -514,7 +514,7 @@
           .col-md-4.mb-4.mb-md-0
             h4 Desintermediación
             p Aspecto diferencial de esta tecnología, puesto que los procedimientos, procesos y operaciones que ocurren en la red se realizan sin supervisión ni mediación de un tercero. 
-            p a autonomía de la red se fundamenta en el <i style="font-weight: 700;">consensus protocol</i>. De esta forma, el <i>Blockchain</i> se caracteriza por su carácter libre y autónomo. 
+            p La autonomía de la red se fundamenta en el <i style="font-weight: 700;">consensus protocol</i>. De esta forma, el <i>Blockchain</i> se caracteriza por su carácter libre y autónomo. 
         
           .col-md-7
             figure

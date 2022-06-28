@@ -134,8 +134,9 @@ export default {
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2018). Proyecto de ley: “Por el cual se regula el uso de las monedas virtuales o criptomonedas y las formas de transacción con éstas en el territorio de Colombia y se dictan otras disposiciones”.',
-      link: 'https://academy.bit2me.com/diferencias-entre-bitcoin-y-ethereum/',
+        'Congreso de la República de Colombia. (2018). Proyecto de ley: “Por el cual se regula el uso de las monedas virtuales o criptomonedas y las formas de transacción con estas en el territorio de Colombia y se dictan otras disposiciones”.',
+      link:
+        'http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2018%20-%202019/PL%20028-18%20Criptomonedas.pdf',
     },
     {
       referencia:
@@ -293,7 +294,7 @@ export default {
     {
       tema: 'Criptomonedas',
       referencia:
-        'Congreso de la República de Colombia. (2018). Proyecto de ley: “Por el cual se regula el uso de las monedas virtuales o criptomonedas y las formas de transacción con éstas en el territorio de Colombia y se dictan otras disposiciones”.',
+        'Congreso de la República de Colombia. (2018). Proyecto de ley: “Por el cual se regula el uso de las monedas virtuales o criptomonedas y las formas de transacción con estas en el territorio de Colombia y se dictan otras disposiciones”.',
       tipo: 'Proyecto de ley',
       link:
         'http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2018%20-%202019/PL%20028-18%20Criptomonedas.pdf',
